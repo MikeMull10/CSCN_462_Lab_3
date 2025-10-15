@@ -3,7 +3,7 @@
 	$db_host = '127.0.0.1';
 	$db_name = 'AD';
 	$db_user = 'root';
-	$db_pass = 'Liberty197!';
+	$db_pass = '';
 
 	$dsn = "mysql:host={$db_host};dbname={$db_name};port=3306";
 
