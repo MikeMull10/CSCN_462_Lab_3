@@ -1,5 +1,3 @@
-
-
 import mysql.connector
 from mysql.connector import Error
 from pprint import pprint as pp
@@ -48,3 +46,4 @@ for i, (rid, username, password, flag, fullname) in enumerate(users):
 conn.commit()
 cursor.close()
 conn.close()
+
