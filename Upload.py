@@ -3,7 +3,7 @@ from mysql.connector import Error
 from pprint import pprint as pp
 
 try:
-        conn = mysql.connector.connect(host='localhost', user='root', password='Liberty197!', database='AD')
+        conn = mysql.connector.connect(host='localhost', user='root', password='', database='AD')
         if conn.is_connected():
                 print("SUCCESS")
 except Error as e:
@@ -46,4 +46,5 @@ for i, (rid, username, password, flag, fullname) in enumerate(users):
 conn.commit()
 cursor.close()
 conn.close()
+
 
